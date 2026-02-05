@@ -11,4 +11,5 @@ Your task is to predict whether a loan will be classified as bad (BAD = 1) or go
  5.Train a suitable classification model
  6.Evaluate the model using appropriate metrics
  7.Explain your preprocessing choices, model selection, and evaluation approach
+
 # Note: Focus on decision-making and understanding of data, not maximum accuracy.
