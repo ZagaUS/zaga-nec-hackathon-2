@@ -1,15 +1,14 @@
-# Problem 1: Loan Default Prediction
-📂 Dataset: Loan Prediction
+# Problem 1: Customer Feedback Sentiment Classification
+📂 Dataset: Sentiment Analysis
 # Problem Statement
-You are given a loan dataset containing customer financial and personal information.
-Your task is to predict whether a loan will be classified as bad (BAD = 1) or good (BAD = 0).
+You are given customer feedback text along with sentiment labels.
+Your task is to classify customer feedback into sentiment categories.
 # Tasks to Perform
  1.Load the dataset
- 2.Identify and handle missing values appropriately
- 3.Encode categorical variables such as job and loan reason
- 4.Select relevant features for prediction
- 5.Train a suitable classification model
- 6.Evaluate the model using appropriate metrics
- 7.Explain your preprocessing choices, model selection, and evaluation approach
-
-# Note: Focus on decision-making and understanding of data, not maximum accuracy.
+ 2.Clean and preprocess the text data
+ 3.Convert text into numerical features
+ 4.Encode sentiment labels
+ 5.Train a suitable text classification model
+ 6.Evaluate model performance
+ 7.Explain your text preprocessing steps and model choice
+# Note: Handling noisy data and explaining decisions is more important than accuracy.
