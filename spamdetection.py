@@ -12,6 +12,11 @@ df['email_text']=df['email_text'].dropna()
 X=df['email_text']
 Y=df['num_words']
 x_train,x_test,y_train,y_test=train_test_split(X,Y,test_size=0.2,random_state=42)
+vectorizer=TfidfVectorizer()
+x_train_vector=vectorizer.fit_transform(x_train)
+y_train_vector=vectorizer.fit_transform(y_train)
+x_testvector=vectorizer.transform(x_test)
+y_testvector=vectorizer.transform(y_test)
 model=LogisticRegression()
 model.fit(x_train,y_train)
 accuracy=model.score(x_test,y_test)
